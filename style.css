@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'geologica';
+}
+
+.muda-tudo{
+    width: 1366px;
+    height: 657px;
+    background: #13293D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #0f3253;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px -15px rgba(0, 0, 0, 0.667);
+
+}
+
+.card-login > h1 {
+    color: #5e9edf;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.textfield > input{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background:#1d4a74 ;
+    color:#5e9edf ;
+    font-size: 12pt;
+    box-shadow:0px 10px 40px -8px rgba(0, 0, 0, 0.667) ;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color:#5e9edf ;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color:#133c63;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #13293D;
+    background: #5e9edf;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -8px rgba(0, 0, 0, 0.667);
+
+}
